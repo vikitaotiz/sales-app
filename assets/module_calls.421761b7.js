@@ -1,0 +1,1 @@
+import{b as s}from"./helpers.73a7253f.js";const c=async(t,a)=>(await fetch(`${s}/${t}`,{headers:{"Content-Type":"application/json",Authorization:`Bearer ${a}`}})).json(),i=async(t,a,e)=>(await fetch(`${s}/${a}`,{method:"POST",headers:{"Content-Type":"application/json",Authorization:`Bearer ${e}`},body:JSON.stringify(t)})).json();export{c as g,i as p};
